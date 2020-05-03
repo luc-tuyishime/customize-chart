@@ -1,10 +1,381 @@
 #chart{
     margin: auto;
-    width: 30%;
+    width: 60%;
     margin-top: 50px;
 }
 
-.text-overview{
-    font-size: 20px;
+
+.dataset-moon {
+    margin-left: 170px;
+    position: absolute;
+    top: 50px;
+    width: 75px;
+    height: 29px;
+    border-radius:0 23px 35px 0;
+    background-color:#6800B4;
+    color:#FFF;
+    -webkit-border-radius:0 23px 35px 0;
+    -moz-border-radius:0 23px 35px 0;
+    -ms-border-radius:0 23px 35px 0;
+    -o-border-radius:0 23px 35px 0;
+}
+
+.dataset-moon:before
+{
+    width: 65px;
+    height: 29px;
+    border-radius:0 23px 35px 0;
+    background-color:#FFF;
+    display:inline-block;
+    /*vertical-align: middle;
+    margin-right: 4px;
+    */content: '';
+    -webkit-border-radius:0 23px 35px 0;
+    -moz-border-radius:0 23px 35px 0;
+    -ms-border-radius:0 23px 35px 0;
+    -o-border-radius:0 23px 35px 0;
+}
+
+.percentage{
+    background-color: black;
+    width: 60px;
+    text-align: center;
+    color: white;
     font-weight: bold;
+    margin: 20px 185px;
+    position: absolute;
+    top: 27px;
+    z-index: 1;
+}
+
+.facebook{
+    margin-top: 33px;
+    position: absolute;
+    left: 130px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+
+
+.dataset-moon2 {
+    margin-left: 170px;
+    position: absolute;
+    top: 130px;
+    width: 75px;
+    height: 29px;
+    border-radius:0 23px 35px 0;
+    background-color:#B21F00;
+    color:#FFF;
+    -webkit-border-radius:0 23px 35px 0;
+    -moz-border-radius:0 23px 35px 0;
+    -ms-border-radius:0 23px 35px 0;
+    -o-border-radius:0 23px 35px 0;
+}
+
+.dataset-moon2:before
+{
+    width: 65px;
+    height: 29px;
+    border-radius:0 23px 35px 0;
+    background-color:#FFF;
+    display:inline-block;
+    /*vertical-align: middle;
+    margin-right: 4px;
+    */content: '';
+    -webkit-border-radius:0 23px 35px 0;
+    -moz-border-radius:0 23px 35px 0;
+    -ms-border-radius:0 23px 35px 0;
+    -o-border-radius:0 23px 35px 0;
+}
+
+.percentage2{
+    background-color: black;
+    width: 60px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 20px 185px;
+    position: absolute;
+    top: 108px;
+    z-index: 1;
+}
+
+.instagram{
+    margin-top: 113px;
+    position: absolute;
+    left: 130px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+
+
+.dataset-moon3 {
+    margin-left: 170px;
+    position: absolute;
+    top: 200px;
+    width: 75px;
+    height: 29px;
+    border-radius:0 23px 35px 0;
+    background-color:#C9DE00;
+    color:#FFF;
+    -webkit-border-radius:0 23px 35px 0;
+    -moz-border-radius:0 23px 35px 0;
+    -ms-border-radius:0 23px 35px 0;
+    -o-border-radius:0 23px 35px 0;
+}
+
+.dataset-moon3:before
+{
+    width: 65px;
+    height: 29px;
+    border-radius:0 23px 35px 0;
+    background-color:#FFF;
+    display:inline-block;
+    /*vertical-align: middle;
+    margin-right: 4px;
+    */content: '';
+    -webkit-border-radius:0 23px 35px 0;
+    -moz-border-radius:0 23px 35px 0;
+    -ms-border-radius:0 23px 35px 0;
+    -o-border-radius:0 23px 35px 0;
+}
+
+.percentage3{
+    background-color: black;
+    width: 60px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 20px 185px;
+    position: absolute;
+    top: 175px;
+    z-index: 1;
+}
+
+.twitter{
+    margin-top: 180px;
+    position: absolute;
+    left: 140px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+
+.dataset-moon3 {
+    margin-left: 170px;
+    position: absolute;
+    top: 200px;
+    width: 75px;
+    height: 29px;
+    border-radius:0 23px 35px 0;
+    background-color:#C9DE00;
+    color:#FFF;
+    -webkit-border-radius:0 23px 35px 0;
+    -moz-border-radius:0 23px 35px 0;
+    -ms-border-radius:0 23px 35px 0;
+    -o-border-radius:0 23px 35px 0;
+}
+
+.dataset-moon3:before
+{
+    width: 65px;
+    height: 29px;
+    border-radius:0 23px 35px 0;
+    background-color:#FFF;
+    display:inline-block;
+    /*vertical-align: middle;
+    margin-right: 4px;
+    */content: '';
+    -webkit-border-radius:0 23px 35px 0;
+    -moz-border-radius:0 23px 35px 0;
+    -ms-border-radius:0 23px 35px 0;
+    -o-border-radius:0 23px 35px 0;
+}
+
+.percentage3{
+    background-color: black;
+    width: 60px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 20px 185px;
+    position: absolute;
+    top: 175px;
+    z-index: 1;
+}
+
+.twitter{
+    margin-top: 180px;
+    position: absolute;
+    left: 140px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+
+
+.dataset-moon4 {
+    margin-left: -145px;
+    position: absolute;
+    top: 50px;
+    width: 75px;
+    height: 29px;
+    border-radius:0 23px 35px 0;
+    background-color:#2FDE00;
+    color:#FFF;
+    -webkit-border-radius:0 23px 35px 0;
+    -moz-border-radius:0 23px 35px 0;
+    -ms-border-radius:0 23px 35px 0;
+    -o-border-radius:0 23px 35px 0;
+}
+
+.dataset-moon4:before
+{
+    width: 65px;
+    height: 29px;
+    border-radius:0 23px 35px 0;
+    background-color:#FFF;
+    display:inline-block;
+    /*vertical-align: middle;
+    margin-right: 4px;
+    */content: '';
+    -webkit-border-radius:0 23px 35px 0;
+    -moz-border-radius:0 23px 35px 0;
+    -ms-border-radius:0 23px 35px 0;
+    -o-border-radius:0 23px 35px 0;
+}
+
+.percentage4{
+    background-color: black;
+    width: 60px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 20px -130px;
+    position: absolute;
+    top: 27px;
+    z-index: 1;
+}
+
+.linkedin{
+    margin-top: 33px;
+    position: absolute;
+    left: -47px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+
+
+.dataset-moon5 {
+    margin-left: -140px;
+    position: absolute;
+    top: 130px;
+    width: 75px;
+    height: 29px;
+    border-radius:0 23px 35px 0;
+    background-color:#f4511e;
+    color:#FFF;
+    -webkit-border-radius:0 23px 35px 0;
+    -moz-border-radius:0 23px 35px 0;
+    -ms-border-radius:0 23px 35px 0;
+    -o-border-radius:0 23px 35px 0;
+}
+
+.dataset-moon5:before
+{
+    width: 65px;
+    height: 29px;
+    border-radius:0 23px 35px 0;
+    background-color:#FFF;
+    display:inline-block;
+    /*vertical-align: middle;
+    margin-right: 4px;
+    */content: '';
+    -webkit-border-radius:0 23px 35px 0;
+    -moz-border-radius:0 23px 35px 0;
+    -ms-border-radius:0 23px 35px 0;
+    -o-border-radius:0 23px 35px 0;
+}
+
+.percentage5{
+    background-color: black;
+    width: 60px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 20px -125px;
+    position: absolute;
+    top: 105px;
+    z-index: 1;
+}
+
+.snapchat{
+    margin-top: 110px;
+    position: absolute;
+    left: -45px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+
+.dataset-moon6 {
+    margin-left: 170px;
+    position: absolute;
+    top: 200px;
+    width: 75px;
+    height: 29px;
+    border-radius:0 23px 35px 0;
+    background-color:#00A6B4;
+    color:#FFF;
+    -webkit-border-radius:0 23px 35px 0;
+    -moz-border-radius:0 23px 35px 0;
+    -ms-border-radius:0 23px 35px 0;
+    -o-border-radius:0 23px 35px 0;
+}
+
+.dataset-moon6:before
+{
+    width: 65px;
+    height: 29px;
+    border-radius:0 23px 35px 0;
+    background-color:#FFF;
+    display:inline-block;
+    /*vertical-align: middle;
+    margin-right: 4px;
+    */content: '';
+    -webkit-border-radius:0 23px 35px 0;
+    -moz-border-radius:0 23px 35px 0;
+    -ms-border-radius:0 23px 35px 0;
+    -o-border-radius:0 23px 35px 0;
+}
+
+.percentage6{
+    background-color: black;
+    width: 60px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 20px 185px;
+    position: absolute;
+    top: 175px;
+    z-index: 1;
+}
+
+.youtube{
+    margin-top: 180px;
+    position: absolute;
+    left: 140px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.youtube-div{
+    margin-left: -310px;
+}
+
+.youtube{
+    margin-left: -185px;
 }
